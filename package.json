@@ -16,7 +16,7 @@
   "author": "irynapuchkova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/irynapuchkova/goit-js-hw-11/issues"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
