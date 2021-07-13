@@ -14,37 +14,36 @@ body {
 .timer-wrapper {
   display: flex;
   justify-content: space-around;
-  background-color: #ddce25;
+  background-color: #96dd25;
   border-radius: 10px;
   height: 130px;
-  width: 400px;
+  width: 410px;
   padding: 15px 18px;
 }
 
 .operator {
   display: flex;
-
-  &.input,
-  &.startbtn {
-    border-radius: 5px;
-    background-color: bisque;
-    height: 50px;
-    width: 200px;
-    padding-left: 20px;
-    padding-right: 10px;
-    font-size: 20px;
-  }
+  margin-bottom: 20px;
 }
 
 .input,
 .startbtn {
-  border-radius: 5px;
-  background-color: bisque;
+  border: solid 1px rgb(55, 182, 61);
+  border-radius: 8px;
+  background-color: rgb(222, 224, 182);
   height: 50px;
   width: 200px;
   padding-left: 20px;
   padding-right: 10px;
+  margin-right: 10px;
   font-size: 20px;
+
+  &:hover,
+  &:focus {
+    cursor: progress;
+    background-color: rgba(220, 127, 20, 0.787);
+    border-color: chocolate;
+  }
 }
 
 .value {
