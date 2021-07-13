@@ -1,5 +1,5 @@
 
-import './sass/main.scss';
+import '../sass/main.scss';
 import Swal from 'sweetalert2';
 
 const btnStart = document.querySelector('[data-start]');

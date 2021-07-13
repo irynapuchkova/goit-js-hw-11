@@ -1,5 +1,14 @@
 body {
   background-color: rgb(205, 228, 228);
+  position: relative;
+}
+
+.timer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-right: -200px;
 }
 
 .timer-wrapper {

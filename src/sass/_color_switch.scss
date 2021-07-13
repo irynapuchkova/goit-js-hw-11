@@ -1,0 +1,19 @@
+.color-btn {
+  display: inline-block;
+  padding: 20px;
+}
+
+.color-btn__start,
+.color-btn__stop {
+  background-color: rgb(222, 224, 182);
+  padding: 20px 12px;
+  border-radius: 50%;
+}
+
+.color-btn__start:hover,
+.color-btn__start:focus,
+.color-btn__stop:hover,
+.color-btn__stop:focus {
+  background-color: rgba(20, 123, 220, 0.787);
+  cursor: wait;
+}
